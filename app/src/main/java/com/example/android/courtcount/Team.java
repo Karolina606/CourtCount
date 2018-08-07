@@ -8,8 +8,8 @@ public class Team {
         name = this.name;
     }
 
-    public void addPoints(int Points){
-        score += point
+    public void addPoints(int points){
+        score += points;
     }
 
     public int getScore(){
