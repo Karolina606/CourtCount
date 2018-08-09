@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_layout_padding"
+    tools:context=".teamsNames">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="@string/give_team_names"
+        android:textSize="@dimen/header_size" />
+
+    <EditText
+        android:id="@+id/team_a_given_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_elements_linear_vertical"
+        android:hint="@string/team_a"
+        android:lines="1" />
+
+    <EditText
+        android:id="@+id/team_b_given_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_elements_linear_vertical"
+        android:hint="@string/team_b"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/submit_teams_names_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_elements_linear_vertical"
+        android:background="@color/colorPrimary"
+        android:onClick="submitTeamsNames"
+        android:paddingHorizontal="@dimen/button_padding"
+        android:text="Set names"
+        android:textColor="@color/lightAccent" />
+
+</LinearLayout>

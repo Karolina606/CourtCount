@@ -44,7 +44,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_gravity="center_horizontal"
                     android:background="@color/colorPrimary"
-                    android:layout_margin="@dimen/button_margin"/>
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="addScoreButton" />
 
                 <Button
                     android:id="@+id/two_points_button_a"
@@ -53,7 +54,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_gravity="center_horizontal"
                     android:background="@color/colorPrimary"
-                    android:layout_margin="@dimen/button_margin"/>
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="addScoreButton" />
 
                 <Button
                     android:id="@+id/one_point_button_a"
@@ -62,7 +64,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_gravity="center_horizontal"
                     android:background="@color/colorPrimary"
-                    android:layout_margin="@dimen/button_margin" />
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="addScoreButton" />
 
             </LinearLayout>
 
@@ -99,7 +102,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_gravity="center_horizontal"
                     android:background="@color/colorPrimary"
-                    android:layout_margin="@dimen/button_margin"/>
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="addScoreButton" />
 
                 <Button
                     android:id="@+id/two_points_button_b"
@@ -108,7 +112,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_gravity="center_horizontal"
                     android:background="@color/colorPrimary"
-                    android:layout_margin="@dimen/button_margin"/>
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="addScoreButton" />
 
                 <Button
                     android:id="@+id/one_point_button_b"
@@ -117,7 +122,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_gravity="center_horizontal"
                     android:background="@color/colorPrimary"
-                    android:layout_margin="@dimen/button_margin"/>
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="addScoreButton" />
 
             </LinearLayout>
 
@@ -136,6 +142,7 @@
                 android:background="@color/colorAccent"
                 android:lines="1"
                 android:text="@string/restart"
+                android:onClick="reset"
                 android:textAllCaps="true" />
 
         </FrameLayout>
