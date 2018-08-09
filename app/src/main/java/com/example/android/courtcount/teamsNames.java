@@ -21,7 +21,7 @@ public class teamsNames extends AppCompatActivity {
         String nameA = nameAEditText.getText().toString();
         String nameB = nameBEditText.getText().toString();
 
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, ScoreTracker.class);
         intent.putExtra("team_a_given_name", nameA);
         intent.putExtra("team_b_given_name", nameB);
 
