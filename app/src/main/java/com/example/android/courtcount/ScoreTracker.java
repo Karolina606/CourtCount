@@ -6,6 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * ScoreTracker activity
+ * It displays current match scores
+ */
+
 public class ScoreTracker extends AppCompatActivity {
 
     // ----------------------------- VARIABLES -----------------------------------------

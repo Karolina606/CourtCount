@@ -3,6 +3,11 @@ package com.example.android.courtcount;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * MatchCounter class
+ * It is a match class
+ */
+
 public class MatchCounter {
     public Team teamA;
     public Team teamB;

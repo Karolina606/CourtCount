@@ -6,6 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
+/**
+ * Launch activity
+ * It asks about teams' names
+ */
+
 public class teamsNames extends AppCompatActivity {
 
     @Override
